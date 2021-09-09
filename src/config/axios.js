@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const clienteAxios = axios.create({
-    baseURL: 'https://app-crud-redux.herokuapp.com/'
+    baseURL: 'https://app-crud-redux.herokuapp.com/productos'
 });
 
 export default clienteAxios;
